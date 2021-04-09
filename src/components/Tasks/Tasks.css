@@ -1,0 +1,45 @@
+
+.tasks {
+  margin-top: 10%;
+
+}
+.tasks li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #00eeff;
+  font-family: Ubuntu;
+}
+
+.tasks li .edit{
+  margin-right: 5px;
+  color: #00eeff;
+}
+
+.tasks li .delete{
+  color: #c40afd;
+}
+.tasks li{
+
+  padding: 1em;
+  border-radius: 3px;
+  transition: all 400ms;
+
+}
+
+.tasks li:hover{
+  color: white;
+  background-color: #4a1b7c;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.tasks li .edit:hover, .tasks li .delete:hover {
+  color: white;
+  cursor: pointer;
+  transition: all 400ms;
+}
+
+.tasks li span{
+  display: flex;
+  align-items: center;
+}
